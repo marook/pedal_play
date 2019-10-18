@@ -1,0 +1,20 @@
+pedal-play
+
+1) Installation
+2) Pedal Configuration
+
+
+------------------------------------------------------------------------
+Installation
+
+$ aptitude install python3-vlc
+
+
+------------------------------------------------------------------------
+Pedal Configuration
+
+Edit your ~/.xbindkeysrc and add the following. You might have to adjust
+the key which is emitted by your pedal:
+
+"touch ~/.local/var/pedal_play/play"
+  XF86AudioPlay  
