@@ -3,6 +3,7 @@ pedal-play
 1) Installation
 2) Pedal Configuration
 3) Usage
+4) License
 
 
 ------------------------------------------------------------------------
@@ -29,3 +30,9 @@ $ pedal_play some/sound_file.mp3
 
 Hit the pedal to play the sound file. Playback will pause when the pedal
 is no longer pressed.
+
+
+------------------------------------------------------------------------
+License
+
+See the file COPYING for more details.
