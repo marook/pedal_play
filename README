@@ -2,12 +2,14 @@ pedal-play
 
 1) Installation
 2) Pedal Configuration
+3) Usage
 
 
 ------------------------------------------------------------------------
 Installation
 
 $ aptitude install python3-vlc
+$ install -m 0755 pedal_play.py /usr/local/bin/pedal_play
 
 
 ------------------------------------------------------------------------
@@ -18,3 +20,12 @@ the key which is emitted by your pedal:
 
 "touch ~/.local/var/pedal_play/play"
   XF86AudioPlay  
+
+
+------------------------------------------------------------------------
+Usage
+
+$ pedal_play some/sound_file.mp3
+
+Hit the pedal to play the sound file. Playback will pause when the pedal
+is no longer pressed.
