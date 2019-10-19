@@ -9,7 +9,7 @@ pedal-play
 ------------------------------------------------------------------------
 Installation
 
-$ aptitude install python3-vlc
+$ aptitude install python3-vlc python3-progressbar
 $ install -m 0755 pedal_play.py /usr/local/bin/pedal_play
 
 
